@@ -576,7 +576,7 @@ footer .follow i:hover, footer a:hover {
     }
 
     #navbar.active{
-        right: 0px;
+        right: 120px;
     }
 
     #navbar li{
@@ -591,14 +591,14 @@ footer .follow i:hover, footer a:hover {
     #mobile i {
         color: #1a1a1a;
         font-size: 24px;
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     #close {
         display: initial;
         position: absolute;
         top: 30px;
-        left: 30px;
+        left: 10px;
         color: #222;
         font-size: 24px;
     }
@@ -612,6 +612,5 @@ footer .follow i:hover, footer a:hover {
         height: 70vh;
         padding: 50px 50px;
         background-position: top 10% right 10px;
-        vertical-align: top;
     }
 }
