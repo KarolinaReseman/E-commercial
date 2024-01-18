@@ -658,3 +658,15 @@ footer .follow i:hover, footer a:hover {
         width: 100%;
     }
 }
+
+@media (max-width: 477px) {
+    #header {
+        padding: 5px 10px;
+    }
+
+    #hero {
+        width: 190%;
+        padding: 40px 10px;
+        background-position: top 55% right 10px;
+    }
+}
