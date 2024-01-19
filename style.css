@@ -632,6 +632,26 @@ footer .follow i:hover, footer a:hover {
     font-size: 26px;
 }
 
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+    background-color: #088178;
+    color: white;
+}
+
 @media (max-width:810px) {
     .section-p1 {
         padding: 40px 40px;
