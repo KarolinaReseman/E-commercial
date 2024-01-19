@@ -647,6 +647,10 @@ footer .follow i:hover, footer a:hover {
     margin-right: 10px;
 }
 
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
 #prodetails .single-pro-details button {
     background-color: #088178;
     color: white;
