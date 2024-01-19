@@ -558,6 +558,21 @@ footer .follow i:hover, footer a:hover {
     margin: 0 0 8px 0;
 }
 
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2, #page-header p {
+    color: white;
+}
+
 @media (max-width:810px) {
     .section-p1 {
         padding: 40px 40px;
