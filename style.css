@@ -558,7 +558,7 @@ footer .follow i:hover, footer a:hover {
     margin: 0 0 8px 0;
 }
 
-@media (max-width:799px) {
+@media (max-width:810px) {
     .section-p1 {
         padding: 40px 40px;
     }
