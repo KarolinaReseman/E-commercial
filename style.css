@@ -660,13 +660,77 @@ footer .follow i:hover, footer a:hover {
 }
 
 @media (max-width: 477px) {
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -400px;
+        height: 100vh;
+        width: 350px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 70px 0 0 0px;
+        transition: 0.3s;
+    }
+
     #header {
         padding: 5px 10px;
     }
 
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    p {
+        color: #222;
+        font-size: 12px;
+    }
+
     #hero {
-        width: 190%;
+        width: 195%;
         padding: 40px 10px;
         background-position: top 55% right 10px;
     }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
 }
