@@ -611,6 +611,27 @@ footer .follow i:hover, footer a:hover {
     cursor: pointer;
 }
 
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px ;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details h6 {
+    color: black;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
 @media (max-width:810px) {
     .section-p1 {
         padding: 40px 40px;
