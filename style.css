@@ -674,6 +674,8 @@ footer .follow i:hover, footer a:hover {
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    padding-bottom: 90px;
 }
 
 #blog .blog-img {
@@ -685,8 +687,8 @@ footer .follow i:hover, footer a:hover {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    margin: 0 300px 0 0;
 }
+
 
 #blog .blog-details {
     width: 50%;
@@ -694,7 +696,6 @@ footer .follow i:hover, footer a:hover {
 
 #blog .blog-details a {
     text-decoration: none;
-    margin-left: 40px;
     font-size: 11px;
     color: black;
     font-weight: 700;
@@ -720,22 +721,16 @@ footer .follow i:hover, footer a:hover {
     background-color: #088178;
 } 
 
-#blog .blog-details h1 {
+#blog .blog-box h1 {
     position: absolute;
-    top: -40px;
+    top: -55px;
     left: 0;
     font-size: 70px;
     font-weight: 700;
     color: #c9cbce;
+    z-index: -9;
 }
 
-#blog .blog-details h4 {
-    margin-left: 40px;
-}
-
-#blog .blog-details p {
-    margin-left: 40px;
-}
 
 @media (max-width:810px) {
     .section-p1 {
