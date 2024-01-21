@@ -660,6 +660,83 @@ footer .follow i:hover, footer a:hover {
     line-height: 25px;
 }
 
+#page-header.blog-header {
+    background-image: url('img/banner/b19.jpg');
+    width: 100%;
+    height: 39vh;
+}
+
+#blog {
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#blog .blog-img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 300px 0 0;
+}
+
+#blog .blog-details {
+    width: 50%;
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 11px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+#blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover {
+    color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+    background-color: #088178;
+} 
+
+#blog .blog-details h1 {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+}
+
+#blog .blog-details h4 {
+    margin-left: 40px;
+}
+
+#blog .blog-details p {
+    margin-left: 40px;
+}
+
 @media (max-width:810px) {
     .section-p1 {
         padding: 40px 40px;
