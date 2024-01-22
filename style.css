@@ -105,6 +105,7 @@ body{
     justify-content: center;
 }
 
+
 #navbar li {
     list-style: none;
     padding: 0 20px;
@@ -753,7 +754,51 @@ footer .follow i:hover, footer a:hover {
         transition: 0.3s;
     }
 
+    #navbar.navbar-blog{
+        width: 170px;
+    }
+
+    #navbar.navbar-shop{
+        width: 170px;
+    }
+
+    #navbar.navbar-sproduct{
+        width: 170px;
+    }
+
+    #navbar.navbar-about{
+        width: 170px;
+    }
+
+    #navbar.navbar-contact{
+        width: 170px;
+    }
+
     #navbar.active{
+        right: 120px;
+    }
+
+    #navbar.navbar-blog.active {
+        right: 0;
+    }
+
+    #navbar.navbar-shop.active {
+        right: 0;
+    }
+
+    #navbar.navbar-sproduct.active {
+        right: 0;
+    }
+
+    #navbar.navbar-about.active {
+        right: 0;
+    }
+
+    #navbar.navbar-contact.active {
+        right: 0;
+    }
+
+    #blog-navbar.active{
         right: 120px;
     }
 
@@ -831,6 +876,7 @@ footer .follow i:hover, footer a:hover {
     #newsletter .form {
         width: 100%;
     }
+
 }
 
 @media (max-width: 477px) {
