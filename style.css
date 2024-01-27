@@ -954,7 +954,7 @@ footer .follow i:hover, footer a:hover {
     }
 
     #prodetails {
-        display: flex;
+        
         flex-direction: column;
     }
 
@@ -966,7 +966,16 @@ footer .follow i:hover, footer a:hover {
     #prodetails .single-pro-details {
         width: 100%;
     }
-    
+
+    #page-header.blog-header {
+        width: 100%;
+    }
+
+    #page-header.blog-header img {
+        width: 40%;
+        height: 30vh;
+    }
+
 
 
 }
